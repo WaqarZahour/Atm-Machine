@@ -1,0 +1,4 @@
+barnum==0.5.1
+future==0.15.2
+protobuf==2.6.1
+wheel==0.24.0

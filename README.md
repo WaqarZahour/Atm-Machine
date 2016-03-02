@@ -10,7 +10,7 @@ To install protoc respective installation commands are
 	
 	$ brew install protobuf
 
-Kindly make you have setup the [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
+Kindly make sure you have setup the [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
 Install the python packages that we have mention in `requirements.txt`
 

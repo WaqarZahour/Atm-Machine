@@ -10,7 +10,7 @@ from barnum import gen_data
 def open_account(person):
     """
     In this function create a person object with dummy data
-    :param person:
+    :param person: Proto buffer data structure object
     :return: None
     """
     person.name = gen_data.create_name()[0]

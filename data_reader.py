@@ -8,7 +8,7 @@ import sys
 
 def display_accounts(bank_account):
     """
-    In this function diplay the account holder information
+    In this function display the account holder information
     :param bank_account:
     :return:
     """

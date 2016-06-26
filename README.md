@@ -4,7 +4,7 @@ This repo contains command line `Atm machine` interface with `protobuf` data str
 
 ## Install
 
-To install protoc respective installation commands are
+To install protoc on respective os (like linun, mac) installation commands are
 
 	$ sudo apt-get install protobuf-compiler
 	
@@ -31,6 +31,11 @@ This script will show up the account holder list
 Now everything is setup just run this script and enjoy the atm interface
 
 	$ python atm_menu.py
+		
+`shortway` to clean your project and regerenate the files
+
+	$ make clean
+	$ make all	
 	
 ## Regenerate Protoc
 

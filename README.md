@@ -4,12 +4,12 @@ This repo contains command line `Atm machine` interface with `protobuf` data str
 
 ## Install
 
-To install protoc on respective os (like linun, mac) installation commands are
-
-	$ sudo apt-get install protobuf-compiler
+To install protobuf on mac installation command is
 	
-	$ brew install protobuf
-
+	$ brew install protobuf 
+	
+	$ protoc --version (Version should be 3.1.0)
+	
 Kindly make sure you have setup the [Virtual Environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
 Install the python packages that we have mention in `requirements.txt`

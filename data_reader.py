@@ -1,5 +1,10 @@
 """
 By running this script display the bank account holder data that is already written in the file
+
+Author: Waqar Zahour
+
+Notes:
+- Pylint score: 8.89/10
 """
 
 import bank_pb2

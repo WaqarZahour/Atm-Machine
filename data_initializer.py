@@ -1,5 +1,10 @@
 """
 By running this script initialize the bank account holder data and write it into the file
+
+Author: Waqar Zahour
+
+Notes:
+- Pylint score: 8.80/10
 """
 
 import bank_pb2

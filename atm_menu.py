@@ -1,5 +1,10 @@
 """In this script take the pin number of particular account holder from file
    and do the operations like amount transfer, compare account
+
+Author: Waqar Zahour
+
+Notes:
+- Pylint score: 9.81/10
 """
 
 import os
@@ -63,7 +68,7 @@ class BankAtm(object):
         amount = raw_input('Enter the Amount >>> ')
         try:
             amount = int(amount)
-            if amount > self.account_holder.amount:
+            if amount < 0 or amount > self.account_holder.amount:
                 raise ValueError    # raise exception if user enter the wrong value
             else:
                 self.account_holder.amount -= amount
@@ -88,7 +93,7 @@ class BankAtm(object):
             amount = raw_input('Enter the Amount >>> ')
             try:
                 amount = int(amount)
-                if amount > self.account_holder.amount:
+                if amount < 0 or amount > self.account_holder.amount:
                     raise ValueError    # raise exception if user enter the wrong value
                 else:
                     self.account_holder.amount -= amount
@@ -113,7 +118,7 @@ class BankAtm(object):
 
     def another_transecton(self):
         """ Prompt for asking another transaction """
-        user_input = raw_input('Do you want another transection [press y] >>> ')
+        user_input = raw_input('Do you want another transaction [press y] >>> ')
         if user_input == 'y':
             self.show_menu()
 
